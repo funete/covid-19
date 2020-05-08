@@ -1,0 +1,135 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.painel{
+	text-align:center;
+}
+.recuperados{
+     text-align: center;
+
+}
+.cabeca{
+    background-color: black;
+    text-align: center;
+}
+
+.tabela{
+    margin:auto;
+    padding: 20px;
+	text-align:center;
+   
+
+}
+th{
+    border: 1px solid red;
+    color:red;
+	text-align:center;
+
+}
+tabela ,td.amarelo{
+
+    color:#FF0 ;
+    font: 17 solid "Lucida Console", Monaco, monospace bolder;
+	text-align:center;
+	font-weight: bold;
+}
+
+tabela ,td.verde{
+
+    color:#0F0 ;
+    font: 17 solid "Lucida Console", Monaco, monospace bolder;
+	text-align:center;
+	font-weight: bold;
+}
+
+
+tabela ,td.vermelho{
+    color:#F00;
+    font: 17 solid "Lucida Console", Monaco, monospace bolder;
+	text-align:center;
+	font-weight: bold;
+}
+
+tabela ,td.preto{
+    color:#000;
+    font: 17 solid "Lucida Console", Monaco, monospace bolder;
+	text-align:center;
+	font-weight: bold;
+}
+
+
+table{width: 800px;}
+.ana{
+	color:#000;
+	}
+.tabela{
+	padding:30px;
+	margin:30px auto auto auto;
+	}
+	.ht{
+		background-color:#047B64;
+		color:#06F;
+		text-align:center;
+		background-size:20px;
+	}
+.img{
+	 padding:5px;
+	 width:100%;
+	 height:300px;
+	}
+
+	
